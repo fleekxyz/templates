@@ -1,6 +1,6 @@
-# Fleek.xyz Themes & Examples
+# Fleek.xyz Boilerplates & Examples
 
-Collection of Themes & examples configured to easily deploy to Fleek.xyz with the pre-configured scrips.
+Collection of Boileplates & examples configured to easily deploy to Fleek.xyz with the pre-configured scrips.
 
 Please check each theme/example `Readme.md` it will contain details that explain how to use & deploy. 
 ## Templates & boilerplates
