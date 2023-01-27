@@ -1,4 +1,4 @@
 [submodule "example-apps/fleek-demo-blog"]
 	path = example-apps/fleek-demo-blog
 	url = https://github.com/fleekxyz/fleek-demos-blog
-	branch = master
+	branch = main
