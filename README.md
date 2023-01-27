@@ -4,7 +4,7 @@
 
 # Fleek.xyz Boilerplates & Examples
 
-Collection of Boileplates & examples configured to easily deploy to Fleek.xyz with the pre-configured scrips.
+Collection of Boileplates & examples configured to easily deploy to Fleek.xyz with the pre-configured scripts.
 
 Please check each boilerplate/example `Readme.md` it will contain details that explain how to use & deploy. 
 ## Templates & boilerplates
