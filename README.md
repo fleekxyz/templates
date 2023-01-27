@@ -1,5 +1,5 @@
 <p align="center">
-  <img src=".github/fleek-xyz-mark-on-dark.png" height="150" title="Fleek.xyz" alt="fleek-xyz logo">
+  <img src=".github/coverImage.png" height="450" title="Fleek.xyz" alt="fleek-xyz logo">
 </p>
 
 # Fleek.xyz Boilerplates & Examples
