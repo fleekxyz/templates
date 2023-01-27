@@ -1,15 +1,15 @@
 
 # React Vite Boilerplate
 
-This repository is a template boilerplate for getting started with a React App + Vite which can be deployed to Fleek XYZ directly.
+This repository is a template boilerplate for getting started with a React App + Vite which can be deployed to [Fleek XYZ](https://fleek.xyz/) directly.
 
 ## Dependencies
 
-- React
-- Vite
-- Javascript
-- eslint
-- prettier
+- [React](https://reactjs.org/)
+- ]Vite](https://vitejs.dev/)
+- [Javascript](https://www.javascript.com/)
+- [eslint](https://www.npmjs.com/package/eslint)
+- [prettier](https://prettier.io/)
 
 ## Getting Started
 
