@@ -35,7 +35,7 @@ Please refer to each project's style and contribution guidelines for submitting 
 
 Is the framework you're looking for not here?
 
-Please create an issue describing your request We'll chck it out and consider adding it on future releases!
+Please create an [issue](https://github.com/fleekxyz/templates/issues) describing your request We'll chck it out and consider adding it on future releases!
 
 ## License
 
