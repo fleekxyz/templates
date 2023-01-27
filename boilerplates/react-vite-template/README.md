@@ -6,7 +6,7 @@ This repository is a template boilerplate for getting started with a React App +
 ## Dependencies
 
 - [React](https://reactjs.org/)
-- ]Vite](https://vitejs.dev/)
+- [Vite](https://vitejs.dev/)
 - [Javascript](https://www.javascript.com/)
 - [eslint](https://www.npmjs.com/package/eslint)
 - [prettier](https://prettier.io/)
