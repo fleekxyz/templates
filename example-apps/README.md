@@ -1,7 +1,5 @@
 ![templates-apps](https://user-images.githubusercontent.com/73345016/215175389-6a18dcf2-07fb-4929-bc3c-47e27b6fb2bb.png)
 
-![boilerplateshome](https://user-images.githubusercontent.com/73345016/215175327-fa4c50ca-488e-4073-a304-7f00a73e5523.png)
-
 # Fleek.xyz Templates
 
 Collection of templates, ready to go to easily deploy to Fleek.xyz with the pre-configured scripts.
