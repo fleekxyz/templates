@@ -1,5 +1,5 @@
 
-## React Vite Boilerplate
+# React Vite Boilerplate
 
 This repository is a template boilerplate for getting started with a React App + Vite which can be deployed to Fleek XYZ directly.
 
