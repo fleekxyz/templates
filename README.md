@@ -12,7 +12,7 @@ Please check each boilerplate/example `Readme.md` it will contain details that e
 | Name | Type | Description |                                                   
 | ----- | --- | ---- |
 | [react-app]() |  `boilerplate` | React app configured with Vite |
-| [nextra-docs]() |  `template` | Docs example built using Nextra |
+| [nextra-blog](https://github.com/fleekxyz/fleek-demos-blog/) |  `template` | Blog example built using Nextra |
 
 
 ## Contributing
