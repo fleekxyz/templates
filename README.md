@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/fleek-xyz-mark-on-dark.png" height="150" title="Fleek.xyz" alt="fleek-xyz logo">
+</p>
+
 # Fleek.xyz Boilerplates & Examples
 
 Collection of Boileplates & examples configured to easily deploy to Fleek.xyz with the pre-configured scrips.
