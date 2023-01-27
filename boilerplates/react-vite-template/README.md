@@ -43,7 +43,7 @@ For this process the CLI checks if a fleek.json file exists, in the case it does
 WARN! Fleek CLI is in beta phase, use it under your own responsibility
 ✔ Choose one of the existing sites or create a new one. › Create a new site
 ✔ Type name of you new site. … fleek-demos-blog
-✔ Specify the dist directory from where the site will be uploaded from … out
+✔ Specify the dist directory from where the site will be uploaded from … dist
 ✔ Do you want to include the optional "build" command? … yes
 ✔ Specify `build` command … npm run build
 > Success! Fleek config file has been saved.
@@ -55,7 +55,7 @@ Now we can see that a fleek.json file has been created with the configuration fo
   {
   "id": "cldda19st0000kz081v8v9esj",
   "name": "fleek-demos-blog",
-  "distDir": "out",
+  "distDir": "dist",
   "buildCommand": "npm run build"
 }
 ```
