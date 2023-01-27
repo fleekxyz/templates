@@ -1,3 +1,4 @@
+![cra](https://user-images.githubusercontent.com/73345016/215173844-c43adf85-963a-4f5f-9645-812df067ce9f.png)
 
 # React Vite Boilerplate
 
