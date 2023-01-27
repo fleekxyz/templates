@@ -2,7 +2,7 @@
 
 # Fleek.xyz Boilerplates
 
-Collection of Boileplatesconfigured to easily deploy to Fleek.xyz with the pre-configured scripts!
+Collection of Boileplates configured to easily deploy to Fleek.xyz with the pre-configured scripts!
 
 ## Contributing
 
