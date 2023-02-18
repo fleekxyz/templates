@@ -14,6 +14,7 @@ Please check each boilerplate/example `Readme.md` it will contain details that e
 | [react-app](https://github.com/fleekxyz/templates/tree/main/boilerplates/react-vite-template) |  `boilerplate` | React app configured with Vite |
 | [fleek-demos-blog](https://github.com/fleekxyz/fleek-demos-blog/) |  `template` | Blog example built using Nextra |
 | [gatsby-portfolio-theme](https://github.com/fleekxyz/gatsby-portfolio-theme) |  `boilerplate` | Portfolio boilerplate built with Gatsby |
+| [ethereum-boilerplate](https://github.com/fleekxyz/ethereum-boilerplate) |  `boilerplate` | End-to-end Ethereum boilerplate, IPFS ready. |
 
 ## Contributing
 
