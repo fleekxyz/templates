@@ -6,3 +6,6 @@
 	path = boilerplates/gatsby-portfolio-theme
 	url = git@github.com:fleekxyz/gatsby-portfolio-theme.git
   branch = main
+[submodule "boilerplates/ethereum-boilerplate"]
+	path = boilerplates/ethereum-boilerplate
+	url = https://github.com/fleekxyz/ethereum-boilerplate
