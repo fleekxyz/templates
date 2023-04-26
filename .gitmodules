@@ -9,3 +9,6 @@
 [submodule "boilerplates/ethereum-boilerplate"]
 	path = boilerplates/ethereum-boilerplate
 	url = https://github.com/fleekxyz/ethereum-boilerplate
+[submodule "boilerplates/astro-template"]
+	path = boilerplates/astro-template
+	url = git@github.com:fleekxyz/astro-template.git
