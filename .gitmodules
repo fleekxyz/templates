@@ -12,3 +12,7 @@
 [submodule "boilerplates/astro-template"]
 	path = boilerplates/astro-template
 	url = git@github.com:fleekxyz/astro-template.git
+	
+	[submodule "example-apps/lens-template-app"]
+	path = example-apps/lens-template-app
+	url = git@github.com:fleekxyz/lens-template-app.git
