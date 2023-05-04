@@ -165,7 +165,8 @@ const linkTextStyle = css`
 `
 
 const iconStyle = css`
-  height: 35px;
+  width: 28px;
+  height: 30px;
   margin-right: 40px;
 `
 

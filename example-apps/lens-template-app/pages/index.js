@@ -27,48 +27,18 @@ export default function Home() {
     const provider = new ethers.providers.Web3Provider(
       (window).ethereum
     )
-    const addresses = await provider.listAccounts();
-    if (profile) {
-      try {
-        const client = await createClient()
-        const response = await client.query(timeline, {
-          profileId: profile.id, limit: 15
-        }).toPromise()
-        let posts = response.data.timeline.items.filter(post => {
-          if (post.profile) {
-            post.backgroundColor = generateRandomColor()
-            return post
-          }
-        })
-        posts = posts.map(post => {
-          let picture = post.profile.picture
-          if (picture && picture.original && picture.original.url) {
-            if (picture.original.url.startsWith('ipfs://')) {
-              let result = picture.original.url.substring(7, picture.original.url.length)
-              post.profile.picture.original.url = `http://lens.infura-ipfs.io/ipfs/${result}`
-            }
-          }
+    try {
+      const response = await basicClient.query(explorePublications).toPromise()
+      const posts = response.data.explorePublications.items.filter(post => {
+        if (post.profile) {
+          post.backgroundColor = generateRandomColor()
           return post
-        })
-        setPosts(posts)
-        setLoadingState('loaded')
-      } catch (error) {
-        console.log({ error })
-      }
-    } else if (!addresses.length) {
-      try {
-        const response = await basicClient.query(explorePublications).toPromise()
-        const posts = response.data.explorePublications.items.filter(post => {
-          if (post.profile) {
-            post.backgroundColor = generateRandomColor()
-            return post
-          }
-        })
-        setPosts(posts)
-        setLoadingState('loaded')
-      } catch (error) {
-        console.log({ error })
-      }
+        }
+      })
+      setPosts(posts)
+      setLoadingState('loaded')
+    } catch (error) {
+      console.log({ error })
     }
   }
 
