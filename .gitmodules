@@ -13,3 +13,6 @@
 	path = boilerplates/astro-template
 	url = git@github.com:fleekxyz/astro-template.git
 	
+[submodule "boilerplates/arweave-next-template"]
+	path = boilerplates/arweave-next-template
+	url = git@github.com:PBillingsby/zero-to-arweave.git
