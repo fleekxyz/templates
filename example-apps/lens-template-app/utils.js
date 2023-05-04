@@ -69,3 +69,15 @@ export function generateRandomColor(){
   let randColor = randomNumber.padStart(6, 0);   
   return `#${randColor.toUpperCase()}`
 }
+
+export function returnIpfsPathOrUrl(uri) {
+  if (uri.startsWith('ipfs://')) {
+    let result = uri.substring(7, uri.length)
+    return  `https://lens.infura-ipfs.io/ipfs/${result}`
+  } else if (uri.startsWith('ar://')) {
+    let result = uri.substring(5, uri.length)
+    return `https://arweave.net/${result}`
+  } else {
+    return uri
+  }
+}

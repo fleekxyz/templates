@@ -23,9 +23,6 @@ const inputStyle = css`
   border: 2px solid rgba(0, 0, 0, .04);
   transition: all .4s;
   width: 300px;
-  background-color: #fafafa;
-  &:focus {
-    background-color: white;
-    border: 2px solid rgba(0, 0, 0, .1);
-  }
+  background-color: #272929;
+  color: white;
 `

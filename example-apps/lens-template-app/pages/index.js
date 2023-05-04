@@ -1,8 +1,7 @@
 import { useState, useEffect, useContext } from 'react'
 import { createClient, basicClient, searchPublications, explorePublications, timeline } from '../api'
 import { css } from '@emotion/css'
-import { ethers } from 'ethers'
-import { trimString, generateRandomColor } from '../utils'
+import { trimString, generateRandomColor, returnIpfsPathOrUrl } from '../utils'
 import { Button, SearchInput, Placeholders } from '../components'
 import { AppContext } from '../context'
 import Link from 'next/link'
@@ -24,16 +23,19 @@ export default function Home() {
   }, [profile])
 
   async function fetchPosts() {
-    const provider = new ethers.providers.Web3Provider(
-      (window).ethereum
-    )
     try {
       const response = await basicClient.query(explorePublications).toPromise()
-      const posts = response.data.explorePublications.items.filter(post => {
+      let posts = response.data.explorePublications.items.filter(post => {
         if (post.profile) {
           post.backgroundColor = generateRandomColor()
           return post
         }
+      })
+      posts = posts.map(post => {
+        if (post.profile.picture && post.profile.picture.original) {
+          post.profile.picture.original.url = returnIpfsPathOrUrl(post.profile.picture.original.url)
+        }
+        return post
       })
       setPosts(posts)
       setLoadingState('loaded')
@@ -44,16 +46,26 @@ export default function Home() {
 
   async function searchForPost() {
     setLoadingState('')
+    if (!searchString) {
+      return fetchPosts()
+    }
     try {
       const urqlClient = await createClient()
       const response = await urqlClient.query(searchPublications, {
         query: searchString, type: 'PUBLICATION'
       }).toPromise()
-      const postData = response.data.search.items.filter(post => {
+      let postData = response.data.search.items.filter(post => {
         if (post.profile) {
           post.backgroundColor = generateRandomColor()
           return post
         }
+      })
+
+      postData = postData.map(post => {
+        if (post.profile.picture && post.profile.picture.original) {
+          post.profile.picture.original.url = returnIpfsPathOrUrl(post.profile.picture.original.url)
+        }
+        return post
       })
   
       setPosts(postData)
@@ -88,7 +100,7 @@ export default function Home() {
       <div className={listItemContainerStyle}>
         {
           loadingState === 'no-results' && (
-            <h2>No results....</h2>
+            <h2 style={{color: 'white'}}>No results....</h2>
           )
         }
         {
@@ -141,6 +153,7 @@ const searchContainerStyle = css`
 const latestPostStyle = css`
   margin: 23px 0px 5px;
   word-wrap: break-word;
+  color: #d7dddc;
 `
 
 const profileContainerStyle = css`
@@ -164,10 +177,9 @@ const listItemContainerStyle = css`
 `
 
 const listItemStyle = css`
-  background-color: white;
   margin-top: 13px;
   border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, .15);
+  border: 1px solid rgba(255, 255, 255, .15);
   padding: 21px;
 `
 
@@ -177,6 +189,7 @@ const profileInfoStyle = css`
 
 const nameStyle = css`
   margin: 0 0px 5px;
+  color: #d7dddc;
 `
 
 const handleStyle = css`
@@ -186,8 +199,8 @@ const handleStyle = css`
 
 const itemTypeStyle = css`
   margin: 0;
+  color: #d7dddc;
   font-weight: 500;
   font-size: 14px;
-  color: rgba(0, 0, 0, .45);
   margin-bottom: 16px;
 `

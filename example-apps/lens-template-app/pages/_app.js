@@ -93,7 +93,7 @@ function MyApp({ Component, pageProps }) {
             <div className={linkContainerStyle}>
               <Link href='/'>
                 <a>
-                  <img src="/icon.svg" className={iconStyle} />
+                  <img src="/lensonfleek.png" className={iconStyle} />
                 </a>
               </Link>
               <Link href='/'>
@@ -162,11 +162,11 @@ const linkTextStyle = css`
   margin-right: 40px;
   font-weight: 600;
   font-size: 15px;
+  color: white;
 `
 
 const iconStyle = css`
-  width: 28px;
-  height: 30px;
+  height: 50px;
   margin-right: 40px;
 `
 
@@ -183,14 +183,13 @@ const createPostStyle = css`
 `
 
 const navStyle = css`
-  background-color: white;
+  background-color: black;
   padding: 15px 30px;
   display: flex;
   position: fixed;
   width: 100%;
-  background-color: white;
   z-index: 1;
-  border-bottom: 1px solid #ededed;
+  border-bottom: 1px solid #272929;
 `
 
 const navContainerStyle = css`

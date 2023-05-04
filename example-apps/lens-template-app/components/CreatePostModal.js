@@ -52,7 +52,7 @@ export default function CreatePostModal({
       profileId: profile.id,
       contentURI,
       collectModule: {
-        freeCollectModule: { followerOnly: true }
+        freeCollectModule: { followerOnly: false }
       },
       referenceModule: {
         followerOnlyReferenceModule: false

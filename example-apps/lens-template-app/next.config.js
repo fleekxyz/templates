@@ -6,6 +6,7 @@ const nextConfig = {
       'ipfs.infura.io',
       'statics-polygon-lens-staging.s3.eu-west-1.amazonaws.com',
       'lens.infura-ipfs.io',
+      '4everland.io',
       ""
     ],
   },

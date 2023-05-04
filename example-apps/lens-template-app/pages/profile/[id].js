@@ -10,7 +10,7 @@ import {
 import { ethers } from 'ethers'
 import { css } from '@emotion/css'
 import { AppContext } from '../../context'
-import { getSigner } from '../../utils'
+import { getSigner, returnIpfsPathOrUrl } from '../../utils'
 import ReactMarkdown from 'react-markdown'
 
 import LENSHUB from '../../abi/lenshub'
@@ -59,9 +59,16 @@ export default function Profile() {
 
   async function getProfile() {
     try {
-      const {
+      let {
         profile: profileData, publications: publicationData
       } = await fetchProfile(id)
+      console.log('profileData: ', profileData)
+      if (profileData.picture && profileData.picture.original) {
+        profileData.picture.original.url = returnIpfsPathOrUrl(profileData.picture.original.url)
+      }
+      if (profileData.coverPicture && profileData.coverPicture.original) {
+        profileData.coverPicture.original.url = returnIpfsPathOrUrl(profileData.coverPicture.original.url)
+      }
       setProfile(profileData)
       setPublications(publicationData)
       setLoadedState('loaded')
@@ -188,6 +195,7 @@ export default function Profile() {
 
 const bioStyle = css`
   font-weight: 500;
+  color: #d7dddc;
 `
 
 const emptyPostTextStyle = css`
@@ -211,11 +219,13 @@ const postHeaderStyle = css`
 `
 
 const publicationWrapper = css`
-  background-color: white;
   margin-bottom: 15px;
   padding: 5px 25px;
   border-radius: 15px;
-  border: 1px solid #ededed;
+  border: 1px solid rgba(255, 255, 255, .1);
+  p {
+    color: white;
+  }
 `
 
 const publicationContentStyle = css`
@@ -224,6 +234,7 @@ const publicationContentStyle = css`
 
 const nameStyle = css`
   margin: 15px 0px 5px;
+  color: #d7dddc;
 `
 
 const handleStyle = css`
@@ -276,6 +287,7 @@ const buttonStyle = css`
   transition: all .35s;
   font-weight: 700;
   width: 100%;
+  background-color: rgba(0, 0, 0, .75);
   letter-spacing: .75px;
   &:hover {
     background-color: rgb(249, 92, 255);
