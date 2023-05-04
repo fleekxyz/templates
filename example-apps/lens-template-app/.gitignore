@@ -1,2 +1,6 @@
 node_modules
+.next
+.next*
 .next/*
+
+.env.local
