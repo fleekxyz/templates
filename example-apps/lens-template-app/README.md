@@ -12,6 +12,8 @@ This is an example frontend app made by [Nader Dabit](https://twitter.com/dabit3
 
 
 
+## Run the project 
+
 > For this project to run, you must configure the Infura project ID and project secret in a file named `.env.local`. Check out .example.env.local for guidance.
 
 The main API calls used in this app are defined in __api/index.js__:
@@ -36,10 +38,7 @@ The main API calls used in this app are defined in __api/index.js__:
 
 You can view all of the APIs [here](https://docs.lens.xyz/docs/introduction) and contract methods [here](https://docs.lens.xyz/docs/functions)
 
-
-## Run the project
-
-You can run the project following the next steps.
+To run this project, follow the steps below:
 
 | Command                | Action                                           |
 | :--------------------- | :----------------------------------------------- |
