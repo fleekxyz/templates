@@ -4,13 +4,6 @@ This is an example frontend app made by [Nader Dabit](https://twitter.com/dabit3
 
 ![Logo](https://imgtr.ee/images/2023/05/05/aDBk2.jpg)
 
-## Preview 
-
-![aDETz.jpg](https://imgtr.ee/images/2023/05/05/aDETz.jpg)
-
-![aDcsx.jpg](https://imgtr.ee/images/2023/05/05/aDcsx.jpg) 
-
-
 
 ## Run the project 
 
