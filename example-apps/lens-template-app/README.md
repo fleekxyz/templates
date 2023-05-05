@@ -2,7 +2,15 @@
 
 This is an example frontend app made by [Nader Dabit](https://twitter.com/dabit3) to start to build on top of [Lens Protocol](https://www.lens.xyz/). 
 
-![Logo](https://imgtr.ee/images/2023/05/04/aSlPL.jpg) 
+![Logo](https://imgtr.ee/images/2023/05/05/aDBk2.jpg)
+
+## Preview 
+
+![aDETz.jpg](https://imgtr.ee/images/2023/05/05/aDETz.jpg)
+
+![aDcsx.jpg](https://imgtr.ee/images/2023/05/05/aDcsx.jpg) 
+
+
 
 > For this project to run, you must configure the Infura project ID and project secret in a file named `.env.local`. Check out .example.env.local for guidance.
 
