@@ -74,10 +74,10 @@ After running it you will get an output like this:
 ```
  WARN! Fleek CLI is in beta, use it at your own discretion
   > Success! Deployed!
-   > Site IPFS CID: QmP1nDyoHqSrRabwUSrxRV3DJqiKH7b9t1tpLcr1NTkm1M
+   > Site IPFS CID: QmTf8fUabGohaRztcbXuZCEZ46hrRrCswVPYrquLezWFRF
 
     > You can visit through the gateway:
-     > https://ipfs.io/ipfs/QmP1nDyoHqSrRabwUSrxRV3DJqiKH7b9t1tpLcr1NTkm1M
+     > https://ipfs.io/ipfs/QmTf8fUabGohaRztcbXuZCEZ46hrRrCswVPYrquLezWFRF
 ```
 
 ### Extra features
