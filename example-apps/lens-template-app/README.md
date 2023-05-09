@@ -1,44 +1,69 @@
-# Lens Protocol Front-End Starter Kit 🌿
+# Lens Protocol + Fleek Starter Kit 🌿
+
+![preview](./.github/preview.jpeg)
 
 This is an example frontend app made by [Nader Dabit](https://twitter.com/dabit3) to start to build on top of [Lens Protocol](https://www.lens.xyz/). 
 
-![Logo](https://imgtr.ee/images/2023/05/05/aDBk2.jpg)
+## 🚀 Project Structure
 
+```
+/
+├── abi/
+│   └── lenshub.json
+│   └── lensperiphery.json
+├── api/
+│   └── index.js
+│   └── mutations.js
+│   └── queries.js
+├── components/
+│   └── index.js
+│   └── ...
+├── pages/
+│   └── profile/
+│   └── index.js
+│   └── _app.js
+│   └── ...
+├── public/
+│   └── ...
+├── styles/
+│   └── ...
+└── package.json
+└── ...
+```
 
-## Run the project 
+## 🧞 Commands
 
-> For this project to run, you must configure the Infura project ID and project secret in a file named `.env.local`. Check out .example.env.local for guidance.
-
-The main API calls used in this app are defined in __api/index.js__:
-
-1. [recommendProfiles](https://docs.lens.xyz/docs/recommended-profiles#api-details) - Get popular profiles
-
-2. [getProfiles](https://docs.lens.xyz/docs/get-profiles) - Get profiles by passing in an array of `profileIds`
-
-3. [getPublications](https://docs.lens.xyz/docs/get-publications) - Returns a list of publications based on your request query
-
-4. [searchProfiles](https://docs.lens.xyz/docs/search-profiles-and-publications) - Allows a user to search across hashtags on publications or profile handles. This query returns either a Post and Comment or Profile.
-
-5. [follow](https://docs.lens.xyz/docs/functions#follow) - Follow a user
-
-6. [burn](https://docs.lens.xyz/docs/functions#burn) - Unfollows a user
-
-7. [timeline](https://docs.lens.xyz/docs/user-timeline) - Shows a feed of content tailored to a signed in user
-
-8. [createSetProfileMetadataTypedData](https://docs.lens.xyz/docs/create-set-update-profile-metadata-typed-data) - Allows a user to update the metadata URI for their profile
-
-9. [post](https://docs.lens.xyz/docs/functions#post) - Allows a user to publish content
-
-You can view all of the APIs [here](https://docs.lens.xyz/docs/introduction) and contract methods [here](https://docs.lens.xyz/docs/functions)
-
-To run this project, follow the steps below:
+All commands are run from the root of the project, from a terminal:
 
 | Command                | Action                                           |
 | :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3010`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
+| `pnpm install`         | Starts local dev server at `localhost:3001`      |
+| `pnpm run dev`         | Starts local dev server at `localhost:3001`      |
+| `pnpm run build`       | Build your production site to `./out/`           |
+| `pnpm run start`       | Preview your build locally, before deploying     |
+| `pnpm run lint`        | Runs eslint                                      |
+
+
+## Run the project 
+> This project has a dependency on having a Infura IPFS API Key used on `uploadToIPFS()`. <br/>
+> Setup your Infura keys in `env.local`. You can check `example.env.local` for reference.
+
+You can checkout Lens [documentation](https://docs.lens.xyz/docs/introduction) and [available functions](https://docs.lens.xyz/docs/functions).
+
+The main API calls used in this app are defined in __api/index.js__:
+
+| Method                 | Result                                           |
+| :--------------------- | :----------------------------------------------- |
+| [recommendProfiles](https://docs.lens.xyz/docs/recommended-profiles#api-details) | Get popular profiles |
+| [getProfiles](https://docs.lens.xyz/docs/get-profiles) | Get profiles by passing in an array of `profileIds` |
+| [getPublications](https://docs.lens.xyz/docs/get-publications) | Returns a list of publications based on your request query |
+| [searchProfiles](https://docs.lens.xyz/docs/search-profiles-and-publications) | Allows a user to search across hashtags on publications or profile handles. This query returns either a Post and Comment or Profile. |
+| [follow](https://docs.lens.xyz/docs/functions#follow) | Follow a user |
+| [burn](https://docs.lens.xyz/docs/functions#burn) | Unfollows a user |
+| [timeline](https://docs.lens.xyz/docs/user-timeline) | Shows a feed of content tailored to a signed in user |
+| [createSetProfileMetadataTypedData](https://docs.lens.xyz/docs/create-set-update-profile-metadata-typed-data) | Allows a user to update the metadata URI for their profile |
+| [post](https://docs.lens.xyz/docs/functions#post) | Allows a user to publish content |
+
 
 
 ## ⚡ How to deploy to Fleek
