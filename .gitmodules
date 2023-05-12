@@ -1,15 +1,24 @@
-[submodule "example-apps/fleek-demo-blog"]
-	path = example-apps/fleek-demo-blog
-	url = https://github.com/fleekxyz/fleek-demos-blog
-	branch = main
-[submodule "boilerplates/gatsby-portfolio-theme"]
-	path = boilerplates/gatsby-portfolio-theme
+[submodule "jamstack/astro-template"]
+	path = jamstack/astro-template
+	url = git@github.com:fleekxyz/astro-template.git
+  branch = main
+[submodule "jamstack/gatsby-portfolio"]
+	path = jamstack/gatsby-portfolio
 	url = git@github.com:fleekxyz/gatsby-portfolio-theme.git
   branch = main
-[submodule "boilerplates/ethereum-boilerplate"]
-	path = boilerplates/ethereum-boilerplate
-	url = https://github.com/fleekxyz/ethereum-boilerplate
-[submodule "boilerplates/astro-template"]
-	path = boilerplates/astro-template
+[submodule "jamstack/astro-starter-kit"]
+	path = jamstack/astro-starter-kit
 	url = git@github.com:fleekxyz/astro-template.git
-	
+  branch = main
+[submodule "protocols/lens/starter-kit"]
+	path = protocols/lens/starter-kit
+	url = git@github.com:fleekxyz/lens-template.git
+  branch = main
+[submodule "protocols/ethereum/starter-kit"]
+	path = protocols/ethereum/starter-kit
+	url = git@github.com:fleekxyz/ethereum-boilerplate.git
+  branch = main
+[submodule "jamstack/nextra-blog"]
+	path = jamstack/nextra-blog
+	url = git@github.com:fleekxyz/fleek-demos-blog.git
+  branch = main
