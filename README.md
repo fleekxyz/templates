@@ -1,21 +1,26 @@
+# Templates & Starter kits
+
 <p align="center">
   <img src=".github/coverImage.png" height="450" title="Fleek.xyz" alt="fleek-xyz logo">
 </p>
 
-# Fleek.xyz Boilerplates & Examples
+This repo holds a collection of templates and example applications ready to be deployed on Fleek.
 
-Collection of Boileplates & examples configured to easily deploy to Fleek.xyz with the pre-configured scripts.
+Please check each template `Readme.md` it will contain details that explain how to use & deploy. 
 
-Please check each boilerplate/example `Readme.md` it will contain details that explain how to use & deploy. 
-## Templates & boilerplates
 
-| Name | Type | Description |                                                   
-| ----- | --- | ---- |
-| [react-app](https://github.com/fleekxyz/templates/tree/main/boilerplates/react-vite-template) |  `boilerplate` | React app configured with Vite. |
-| [fleek-demos-blog](https://github.com/fleekxyz/fleek-demos-blog/) |  `template` | Blog example built using Nextra. |
-| [gatsby-portfolio-theme](https://github.com/fleekxyz/gatsby-portfolio-theme) |  `boilerplate` | Portfolio boilerplate built with Gatsby. |
-| [ethereum-boilerplate](https://github.com/fleekxyz/ethereum-boilerplate) |  `boilerplate` | End-to-end Ethereum boilerplate, IPFS ready. |
-| [astro-template](https://github.com/fleekxyz/astro-template) |  `boilerplate` | Starting kit for Astro sites. |
+## Jamstack Templates
+| Template | Description |                                                   
+| :------: | :---------: |                                                   
+| [astro](./jamstack/astro-starter-kit) | Blank Starter kit for Astro |                                                   
+| [nextra](./jamstack/nextra-blog) - Blog | Blog template for Nextra |
+| [gatsby](./jamstack/gatsby-portfolio) - Portfolio | Portfolio template for Gatsby |
+
+## Protocols
+| Protocol | Description |
+| :------: | :---------: |                                                   
+| [Lens](./protocols/lens/starter-kit) - Starter Kit | Minimal social media application using Lens Protocol. |                                                   
+| [Ethereum](./protocols/ethereum/starter-kit) - Starter Kit | Open source Ethereum boilerplate with non-binding dependencies. |
 
 ## Contributing
 
