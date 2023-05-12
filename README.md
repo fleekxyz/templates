@@ -12,15 +12,15 @@ Please check each template `Readme.md` it will contain details that explain how 
 ## Jamstack Templates
 | Template | Description |                                                   
 | :------: | :---------: |                                                   
-| [astro](./jamstack/astro-starter-kit) | Blank Starter kit for Astro |                                                   
-| [nextra](./jamstack/nextra-blog) - Blog | Blog template for Nextra |
-| [gatsby](./jamstack/gatsby-portfolio) - Portfolio | Portfolio template for Gatsby |
+| [astro](https://github.com/fleekxyz/astro-template) | Blank Starter kit for Astro |                                                   
+| [nextra](https://github.com/fleekxyz/fleek-demos-blog) - Blog | Blog template for Nextra |
+| [gatsby](https://github.com/fleekxyz/gatsby-portfolio-theme) - Portfolio | Portfolio template for Gatsby |
 
 ## Protocols
 | Protocol | Description |
 | :------: | :---------: |                                                   
-| [Lens](./protocols/lens/starter-kit) - Starter Kit | Minimal social media application using Lens Protocol. |                                                   
-| [Ethereum](./protocols/ethereum/starter-kit) - Starter Kit | Open source Ethereum boilerplate with non-binding dependencies. |
+| [Lens](https://github.com/fleekxyz/lens-template) - Starter Kit | Minimal social media application using Lens Protocol. |                                                   
+| [Ethereum](https://github.com/fleekxyz/ethereum-boilerplate) - Starter Kit | Open source Ethereum boilerplate with non-binding dependencies. |
 
 ## Contributing
 
