@@ -22,3 +22,6 @@
 	path = jamstack/nextra-blog
 	url = git@github.com:fleekxyz/fleek-demos-blog.git
   branch = main
+[submodule "jamstack/nextjs"]
+	path = jamstack/nextjs
+	url = git@github.com:fleekxyz/nextjs-template.git
