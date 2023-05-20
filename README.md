@@ -12,8 +12,9 @@ Please check each template `Readme.md` it will contain details that explain how 
 ## Jamstack Templates
 | Template | Description |                                                   
 | :------: | :---------: |                                                   
-| [Next.js](https://github.com/fleekxyz/nextjs-template) | Blank Starter kit for Next.js |                                                   
-| [astro](https://github.com/fleekxyz/astro-template) | Blank Starter kit for Astro |                                                   
+| [Next.js](https://github.com/fleekxyz/nextjs-template) | Blank Starter kit for Next.js |
+| [React](https://github.com/fleekxyz/react-template) | Blank Starter kit for React |
+| [astro](https://github.com/fleekxyz/astro-template) | Blank Starter kit for Astro |
 | [nextra](https://github.com/fleekxyz/fleek-demos-blog) - Blog | Blog template for Nextra |
 | [gatsby](https://github.com/fleekxyz/gatsby-portfolio-theme) - Portfolio | Portfolio template for Gatsby |
 
