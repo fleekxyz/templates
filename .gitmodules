@@ -25,3 +25,7 @@
 [submodule "jamstack/nextjs"]
 	path = jamstack/nextjs
 	url = git@github.com:fleekxyz/nextjs-template.git
+[submodule "jamstack/react"]
+	path = jamstack/react
+	url = git@github.com:fleekxyz/react-template.git
+  branch = main
