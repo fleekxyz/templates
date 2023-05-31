@@ -29,3 +29,6 @@
 	path = jamstack/react
 	url = git@github.com:fleekxyz/react-template.git
   branch = main
+[submodule "jamstack/vue"]
+	path = jamstack/vue
+	url = git@github.com:fleekxyz/vue-template.git
