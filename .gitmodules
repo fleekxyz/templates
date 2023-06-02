@@ -32,3 +32,9 @@
 [submodule "jamstack/vue"]
 	path = jamstack/vue
 	url = git@github.com:fleekxyz/vue-template.git
+[submodule "jamstack/hugo"]
+	path = jamstack/hugo
+	url = git@github.com:fleekxyz/hugo-template.git
+[submodule "jamstack/nuxt"]
+	path = jamstack/nuxt
+	url = git@github.com:fleekxyz/nuxt-template.git
