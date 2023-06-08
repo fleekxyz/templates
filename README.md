@@ -24,6 +24,7 @@ Please check each template `Readme.md` it will contain details that explain how 
 ## Protocols
 | Protocol | Description |
 | :------: | :---------: |                                                   
+| [Celo](https://github.com/fleekxyz/celo-starter-kit) - Starter Kit | End-to-end template using Celo. |                                                   
 | [Lens](https://github.com/fleekxyz/lens-template) - Starter Kit | Minimal social media application using Lens Protocol. |                                                   
 | [Ethereum](https://github.com/fleekxyz/ethereum-boilerplate) - Starter Kit | Open source Ethereum boilerplate with non-binding dependencies. |
 

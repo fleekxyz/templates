@@ -38,3 +38,6 @@
 [submodule "jamstack/nuxt"]
 	path = jamstack/nuxt
 	url = git@github.com:fleekxyz/nuxt-template.git
+[submodule "protocols/celo"]
+	path = protocols/celo
+	url = git@github.com:fleekxyz/celo-starter-kit
