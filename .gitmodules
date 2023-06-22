@@ -16,7 +16,7 @@
   branch = main
 [submodule "protocols/ethereum/starter-kit"]
 	path = protocols/ethereum/starter-kit
-	url = git@github.com:fleekxyz/ethereum-boilerplate.git
+	url = git@github.com:fleekxyz/evm-starter-kit.git
   branch = main
 [submodule "jamstack/nextra-blog"]
 	path = jamstack/nextra-blog
