@@ -1,8 +1,6 @@
 # Templates & Starter kits
 
-<p align="center">
-  <img src=".github/coverImage.png" height="450" title="Fleek.xyz" alt="fleek-xyz logo">
-</p>
+![image](https://github.com/fleekxyz/templates/assets/73345016/b7cec8f2-a342-482f-ac49-9d3bfa2c9d16)
 
 This repo holds a collection of templates and example applications ready to be deployed on Fleek.
 
