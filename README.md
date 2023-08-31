@@ -1,6 +1,6 @@
 # Templates & Starter kits
 
-![image](https://github.com/fleekxyz/templates/assets/73345016/b7cec8f2-a342-482f-ac49-9d3bfa2c9d16)
+![image](https://github.com/fleekxyz/templates/assets/55561695/a8f7cd0e-e87d-437b-a4a5-6a6d1f077205)
 
 This repo holds a collection of templates and example applications ready to be deployed on Fleek.
 
